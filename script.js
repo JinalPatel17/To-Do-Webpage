@@ -24,7 +24,7 @@ function createDeleteButtonIcon() {
 function deleteNodeOnClick(e) {
     var trash = document.querySelectorAll("i");
     for (var ind = 0; ind < trash.length; ind++) {
-        console.log(e);
+        // console.log(e);
         this.parentNode.parentNode.remove();
     }
 }
